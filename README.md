@@ -14,12 +14,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 1. The ```generateStaticParams``` function can be used in combination with dynamic route segments to statically generate routes at build time instead of on-demand at request time.
 
-2. dynamicParams
+2. ```dynamicParams```
 Control what happens when a dynamic segment is visited that was not generated with generateStaticParams.
 
-true (default): Dynamic segments not included in generateStaticParams are generated on demand.
+```true ```(default): Dynamic segments not included in generateStaticParams are generated on demand.
 
-false: Dynamic segments not included in generateStaticParams will return a 404.
+```false ```: Dynamic segments not included in generateStaticParams will return a 404.
 
 
 ## Features
